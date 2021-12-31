@@ -38,7 +38,7 @@ odm							/odm		ext4	ro,barrier=1		wait,logical,first_stage_mount
 /dev/block/platform/13520000.ufs/by-name/metadata	/metadata	ext4	defaults		wait,first_stage_mount
 /dev/block/platform/13520000.ufs/by-name/cache		/cache		ext4	defaults		recoveryonly
 /dev/block/platform/13520000.ufs/by-name/userdata	/data		f2fs	defaults		wait,length=-20480
-/dev/block/mmcblk0p1					/sdcard		vfat	defaults		recoveryonly
+#/dev/block/mmcblk0p1					/sdcard		vfat	defaults		recoveryonly
 /dev/block/platform/13520000.ufs/by-name/radio		/modem		emmc	defaults		recoveryonly
 /dev/block/platform/13520000.ufs/by-name/misc		/misc		emmc	defaults		recoveryonly
 #/dev/block/platform/13520000.ufs/by-name/cpefs		/cpefs		ext4	defaults		recoveryonly
