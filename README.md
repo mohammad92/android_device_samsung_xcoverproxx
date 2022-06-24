@@ -5,7 +5,7 @@
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch twrp_xcoverpro-eng
+lunch twrp_xcoverproxx-eng
 make recoveryimage
 ```
 
